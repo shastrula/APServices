@@ -9,10 +9,10 @@ import java.util.Date;
  * Created by praveen on 4/19/2015.
  */
 public class Invoice extends BaseEntity {
-    Date orderDate;
-    Order order;
-    Double orderAmount;
-    Shipment shipment;
-    PaymentInfo paymentInfo;
-    Status status;
+    private Date orderDate;
+    private Order order;
+    private Double orderAmount;
+    private Shipment shipment;
+    private PaymentInfo paymentInfo;
+    private Status status;
 }
