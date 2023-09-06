@@ -2,9 +2,9 @@ apply plugin: 'war'
 apply plugin: 'idea'
 
 dependencies {
-    compile 'org.springframework:spring-beans:5.2.21'
-    compile 'org.springframework:spring-context:5.2.21'
-    compile 'org.springframework:spring-test:5.2.21'
+    compile 'org.springframework:spring-beans:5.2.24'
+    compile 'org.springframework:spring-context:5.2.24'
+    compile 'org.springframework:spring-test:5.2.24'
     testCompile 'junit:junit:4.11'
 }
 
